@@ -20,11 +20,11 @@ Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
 Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
-Blob Storage key: MhsilJmue0ciQnD8zVOGZa7i8YlZcknSz3LiF1vf2mNJCChyvJY6yEnCHVKPNUpjAiKPfa+q9k0a+ASt/n+5jQ==
+Blob Storage key: cwcicwqTUPfsMSbtWWE9AmICuKZWsYltt5RljmQ6X27IHtstiZlbk1EN2shd6+DmAC2TVfOraLwl+AStRTtEEw==
 
 4. Microsoft Entra ID
 4.1. App Registration
-Name: cmsEntraID
+Name: dacityEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
 Secret description: cmsSecret
@@ -42,7 +42,7 @@ After creation:
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
 BLOB_ACCOUNT: cms
 BLOB_CONTAINER: images
-BLOB_STORAGE_KEY: MhsilJmue0ciQnD8zVOGZa7i8YlZcknSz3LiF1vf2mNJCChyvJY6yEnCHVKPNUpjAiKPfa+q9k0a+ASt/n+5jQ==
+BLOB_STORAGE_KEY: cwcicwqTUPfsMSbtWWE9AmICuKZWsYltt5RljmQ6X27IHtstiZlbk1EN2shd6+DmAC2TVfOraLwl+AStRTtEEw==
 
 SQL_SERVER: cms1234.database.windows.net
 SQL_DATABASE: cms
