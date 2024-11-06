@@ -2,19 +2,19 @@ Resource Group
 Resource Group Name: DacityProject
 2. SQL Database
 DB name: cms
-Server: cms1234.database.windows.net
+Server: dacityservers.database.windows.net
 DB region: us-east
 Admin login: cmsadmin
 Admin password: CMS4dmin
-Resource group: cms
+Resource group: DacityProject
 DB workload env: Development
 DB compute + storage: DTU - Basic
 Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
 Set everything else to default
 Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
 3. Storage Account
-Resource group: cms
-Storage account name: images12323 (needs to be unique)
+Resource group: DacityProject
+Storage account name: dacityimagestorage (needs to be unique)
 Advanced - Allow enabling anonymous access on individual containers: Enable
 Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
