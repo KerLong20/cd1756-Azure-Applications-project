@@ -27,7 +27,7 @@ Blob Storage key: cwcicwqTUPfsMSbtWWE9AmICuKZWsYltt5RljmQ6X27IHtstiZlbk1EN2shd6+
 Name: dacityEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
-Secret description: cmsSecret
+Secret description: test
 Secret Key: 367cd66e-53a4-49cf-960b-2352ebc348b0
 Client Secret: Lth8Q~MGEukfdRYl1IvI0RLhLQTy6P2UxD0bZbD6
 Application (client) ID: 0370e514-4afa-4b65-b000-ee175801a2a1
