@@ -1,5 +1,5 @@
 Resource Group
-Resource Group Name: cms
+Resource Group Name: DacityProject
 2. SQL Database
 DB name: cms
 Server: cms1234.database.windows.net
