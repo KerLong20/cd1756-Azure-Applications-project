@@ -2,7 +2,7 @@ Resource Group
 Resource Group Name: cms
 2. SQL Database
 DB name: cms
-Server: cms.database.windows.net
+Server: cms1234.database.windows.net
 DB region: us-east
 Admin login: cmsadmin
 Admin password: CMS4dmin
@@ -44,7 +44,7 @@ BLOB_ACCOUNT: image11
 BLOB_CONTAINER: images
 BLOB_STORAGE_KEY: MhsilJmue0ciQnD8zVOGZa7i8YlZcknSz3LiF1vf2mNJCChyvJY6yEnCHVKPNUpjAiKPfa+q9k0a+ASt/n+5jQ==
 
-SQL_SERVER: cms.database.windows.net
+SQL_SERVER: cms1234.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
