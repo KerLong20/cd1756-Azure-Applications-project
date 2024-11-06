@@ -40,7 +40,7 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
-BLOB_ACCOUNT: image11
+BLOB_ACCOUNT: cms
 BLOB_CONTAINER: images
 BLOB_STORAGE_KEY: MhsilJmue0ciQnD8zVOGZa7i8YlZcknSz3LiF1vf2mNJCChyvJY6yEnCHVKPNUpjAiKPfa+q9k0a+ASt/n+5jQ==
 
