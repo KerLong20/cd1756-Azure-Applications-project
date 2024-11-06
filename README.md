@@ -28,9 +28,9 @@ Name: cmsEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
 Secret description: cmsSecret
-Secret Key: 3a51cadc-dc5f-4503-959d-d4286f24d7a4
-Client Secret: wN48Q~SVo5ecjrNs-Fac1wvs9cRVgXVYPxEmjc.r
-Application (client) ID: 1660e7a3-74ae-4945-aea0-5bd962871c33
+Secret Key: 367cd66e-53a4-49cf-960b-2352ebc348b0
+Client Secret: Lth8Q~MGEukfdRYl1IvI0RLhLQTy6P2UxD0bZbD6
+Application (client) ID: 0370e514-4afa-4b65-b000-ee175801a2a1
 
 Application
 Name: udacitycms.azurewebsites.net
@@ -48,9 +48,9 @@ SQL_SERVER: cms1234.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: liK8Q~KDwIGaXpH1UaR-RS3W0Bk8-apIqD32ectH
-SECRET_KEY: ac2df92a-66cf-4f47-875b-f5d027c33934
-CLIENT_ID: 4cec6730-afad-4714-b5bb-9b2c6666eaba
+CLIENT_SECRET: Lth8Q~MGEukfdRYl1IvI0RLhLQTy6P2UxD0bZbD6
+SECRET_KEY: 367cd66e-53a4-49cf-960b-2352ebc348b0
+CLIENT_ID: 0370e514-4afa-4b65-b000-ee175801a2a1
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
