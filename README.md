@@ -40,12 +40,12 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
-BLOB_ACCOUNT: cms
-BLOB_CONTAINER: images
+BLOB_ACCOUNT:  DacityProject
+BLOB_CONTAINER: dacityimagestorage
 BLOB_STORAGE_KEY: cwcicwqTUPfsMSbtWWE9AmICuKZWsYltt5RljmQ6X27IHtstiZlbk1EN2shd6+DmAC2TVfOraLwl+AStRTtEEw==
 
-SQL_SERVER: cms1234.database.windows.net
-SQL_DATABASE: cms
+SQL_SERVER: dacityservers.database.windows.net
+SQL_DATABASE: Dacitydb
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
 CLIENT_SECRET: Oie8Q~T7sX3Sw1zBI50nniuiIjDilnlQQ2A6Zdt3
