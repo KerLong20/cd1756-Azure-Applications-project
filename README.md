@@ -28,9 +28,9 @@ Name: dacityEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
 Secret description: test
-Secret Key: 367cd66e-53a4-49cf-960b-2352ebc348b0
-Client Secret: Lth8Q~MGEukfdRYl1IvI0RLhLQTy6P2UxD0bZbD6
-Application (client) ID: 0370e514-4afa-4b65-b000-ee175801a2a1
+Secret Key: f37a605c-c6ae-4c96-aa0c-e21f52e2326c
+Client Secret: Oie8Q~T7sX3Sw1zBI50nniuiIjDilnlQQ2A6Zdt3
+Application (client) ID: d1711682-671e-4365-8f05-988ade680595
 
 Application
 Name: udacitycms.azurewebsites.net
@@ -48,9 +48,9 @@ SQL_SERVER: cms1234.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: Lth8Q~MGEukfdRYl1IvI0RLhLQTy6P2UxD0bZbD6
-SECRET_KEY: 367cd66e-53a4-49cf-960b-2352ebc348b0
-CLIENT_ID: 0370e514-4afa-4b65-b000-ee175801a2a1
+CLIENT_SECRET: Oie8Q~T7sX3Sw1zBI50nniuiIjDilnlQQ2A6Zdt3
+SECRET_KEY: f37a605c-c6ae-4c96-aa0c-e21f52e2326c
+CLIENT_ID: d1711682-671e-4365-8f05-988ade680595
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
