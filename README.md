@@ -1,7 +1,7 @@
 Resource Group
 Resource Group Name: DacityProject
 2. SQL Database
-DB name: cms
+DB name: dacitydb
 Server: dacityservers.database.windows.net
 DB region: us-east
 Admin login: cmsadmin
@@ -14,7 +14,7 @@ Set everything else to default
 Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
 3. Storage Account
 Resource group: DacityProject
-Storage account name: dacityimagestorage (needs to be unique)
+Storage account name: dacityimages (needs to be unique)
 Advanced - Allow enabling anonymous access on individual containers: Enable
 Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
