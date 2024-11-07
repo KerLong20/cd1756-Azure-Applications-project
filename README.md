@@ -20,7 +20,7 @@ Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
 Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
-Blob Storage key: cwcicwqTUPfsMSbtWWE9AmICuKZWsYltt5RljmQ6X27IHtstiZlbk1EN2shd6+DmAC2TVfOraLwl+AStRTtEEw==
+Blob Storage key: q5ReF+wTlEav71z/GFZnOJLyX8BhaAbAR7RdDA8eTEbf4c31VvzI+L1Yer+7RrlPht328XJBuNDP+AStgQJGSg==
 
 4. Microsoft Entra ID
 4.1. App Registration
@@ -28,9 +28,9 @@ Name: dacityEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
 Secret description: test
-Secret Key: f37a605c-c6ae-4c96-aa0c-e21f52e2326c
-Client Secret: Oie8Q~T7sX3Sw1zBI50nniuiIjDilnlQQ2A6Zdt3
-Application (client) ID: d1711682-671e-4365-8f05-988ade680595
+Secret Key: cac228dc-3215-4ee7-9b64-23b99f572ff1
+Client Secret: jDr8Q~WRCv_dJ0nIPCA3bTzscsl.G5yGcGVticC2
+Application (client) ID: bdc8c578-c157-4138-b92f-588ce096717c
 
 Application
 Name: udacitycms.azurewebsites.net
@@ -41,16 +41,16 @@ After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
 BLOB_ACCOUNT:  DacityProject
-BLOB_CONTAINER: dacityimagestorage
-BLOB_STORAGE_KEY: cwcicwqTUPfsMSbtWWE9AmICuKZWsYltt5RljmQ6X27IHtstiZlbk1EN2shd6+DmAC2TVfOraLwl+AStRTtEEw==
+BLOB_CONTAINER: dacityimages
+BLOB_STORAGE_KEY: q5ReF+wTlEav71z/GFZnOJLyX8BhaAbAR7RdDA8eTEbf4c31VvzI+L1Yer+7RrlPht328XJBuNDP+AStgQJGSg==
 
 SQL_SERVER: dacityservers.database.windows.net
-SQL_DATABASE: Dacitydb
+SQL_DATABASE: dacitydb
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: Oie8Q~T7sX3Sw1zBI50nniuiIjDilnlQQ2A6Zdt3
-SECRET_KEY: f37a605c-c6ae-4c96-aa0c-e21f52e2326c
-CLIENT_ID: d1711682-671e-4365-8f05-988ade680595
+CLIENT_SECRET: jDr8Q~WRCv_dJ0nIPCA3bTzscsl.G5yGcGVticC2
+SECRET_KEY: cac228dc-3215-4ee7-9b64-23b99f572ff1
+CLIENT_ID: bdc8c578-c157-4138-b92f-588ce096717c
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
